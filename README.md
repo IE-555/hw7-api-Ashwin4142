@@ -89,7 +89,7 @@ for i in range(20):
     goalsDiff.append(persons['api']['standings'][0][i]['goalsDiff'])
 ```
 The data extracted in the previous steps are used to visualize it
-For the first part of visualization, we show the dominance of the top team using the following graphs:
+For the first part of visualization, we show how liverpool dominated the season using the following graphs:
 ```
 #PLOT 1
 width = 0.35       # the width of the bars
@@ -192,7 +192,7 @@ plt.show()
 
 ---
 
-The second part of visualization shows us the competition among the teams for the 4th to 10th spot. As evident from the plot, the points difference between the teams currently holding the spots is very small. The following code visualizes the plot:
+The second part of visualization shows us the competition for the 4th and the final champions league spot between 6 teams. As evident from the plot, the points margin between the teams from 4th spot to 10th spot is very small and a small change of the tide could take the lowly 10th placed Burnley to last champions league spot(i.e 4th place in the table).The following code visualizes the plot:
 ```
 x = []
 y = []
@@ -211,7 +211,7 @@ plt.show()
 
 ![Plot of points comparison of the teams from 4th to 10th spot in the points table](images/ax4.png)
 
-The third part of visualization shows the competition among the last few teams to stay out of relegation. All the teams with total points less than 35 competete to stay out of relegation. The following code visualizes the plot for the relegation battle:
+The third part of visualization shows the competition among the last few teams to stay out of relegation. When a new season starts a smaller team tries to aim atleast 35 points get to get to the safe cushion of playing the in premier league the following season . The following code visualizes the plot for the relegation battle:
 ```
 rel_teams = []
 rel_points = []
