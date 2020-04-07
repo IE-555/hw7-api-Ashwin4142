@@ -1,23 +1,20 @@
-# Write a Brief Descriptive Title Here
+# Visualising the 2019-20 Season of Barclays Premier League
 
-Authors:  **Name 1** and **Name 2**
+Authors:  **Ashwin Nair** , **Vishesh Singh Thakur** and **Gaurav Chaudhary**
 
----
-
-**NOTE**:  The *italicized* content below is for your reference only.  Please remove these comments before submitting.
 
 ---
 
 ## Introduction
-*The purpose of this section is to provide some information about the data you're exploring.  For example, you should*
-- *Describe the type of data that you're importing.* 
-- *Describe the source of the data.  Include URLs.*  
-- *Explain how recent is this data?  How often is it updated?*
+*The purpose of this project is to visualise the standings of Barclays Premier league*
+- *The type of data that is being imported is a ranking system of a football league which follows round robin procedure to decide the final winners* 
+- *Data used for this projected is from the website - https://www.api-football.com/ and the API used comes from rapid API - https://rapidapi.com/api-sports/api/api-football?endpoint=apiendpoint_c8a3886a-cfdb-403f-a6ba-b5a3e84cfbb7*  
+
+- *The data that is being used for this project was last updated on 23rd March 2020 and once, the Corona pandemic is over and the league restarts it will be updated every two footballing weeks*
 
 ---
 
 ## Sources
-*In this section, provide links to your references.  For example:*
 - The source code came from [the magic source code farm](http://www.amagicalnonexistentplace.com)
 - The code retrieves data from [the organization for hosting cool data](http://www.anothermagicalnonexistentplace.com)
 
