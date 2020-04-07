@@ -1,6 +1,6 @@
 # Visualising the 2019-20 Season of Barclays Premier League
 
-Authors:  **Ashwin Nair** , **Vishesh Singh Thakur** and **Gaurav Chaudhary**
+Authors:  **Ashwin Nair** , **Vishesh Singh Thakur** , **Gaurav Chaudhary** , and **Adil Baran Narin**
 
 
 ---
