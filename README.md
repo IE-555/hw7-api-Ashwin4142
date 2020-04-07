@@ -185,6 +185,8 @@ ax1.set(Title = "Total points Comparison")
 plt.tight_layout()
 plt.show()
 ```
+<img src="https://github.com/IE-555/hw7-api-Ashwin4142/tree/master/images/ax.png" width="48">
+
 ![Plot of total home and away wins by the teams](images/ax.png | width = 250)
 ![Plot of total home and away loss by the teams](images/ax1.png | width = 250)
 ![A Histogram of distribution of teams at the points table](images/ax2.png | width = 250)
