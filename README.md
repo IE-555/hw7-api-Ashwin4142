@@ -185,7 +185,6 @@ ax1.set(Title = "Total points Comparison")
 plt.tight_layout()
 plt.show()
 ```
-The images are stored as
 ![Plot of total home and away wins by the teams](images/ax.png)
 ![Plot of total home and away loss by the teams](images/ax1.png)
 ![A Histogram of distribution of teams at the points table](images/ax2.png)
