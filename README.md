@@ -24,7 +24,7 @@ Authors:  **Ashwin Nair** , **Vishesh Singh Thakur** , **Gaurav Chaudhary** , an
 *Our code is divided into three subparts. It takes the data from the Barclays Premiere League and uses its data to show the various statistics of the league table*
 - *The first part of the code is to show the dominance of the top team in the league table, which is Liverpool for the current season. The first graph shows the games won by the respective team in home and away games. The next graph shows the games lost by each team in their home and away matches. The third graph shows the grouping of the teams at various levels of points in the points table*
 - *The second part of the code is to see the competition among the teams from the 4th rank to the 10th rank. As the points difference between them is less, the competition becomes more tough*
-- *The third part of the code gives us the details of the Relegation Battle, which is the battle among the last few teams with points lower than 30 in the points table to keep away from being in the last three teams at the end of the season*
+- *The third part of the code gives us the details of the Relegation Battle, which is the battle among the last few teams with points lower than 35 in the points table to keep away from being in the last three teams at the end of the season*
 
 The code, `BPL_A7.py`, begins by importing necessary Python packages:
 ```
