@@ -185,10 +185,10 @@ ax1.set(Title = "Total points Comparison")
 plt.tight_layout()
 plt.show()
 ```
-![Plot of total home and away wins by the teams](images/ax.png)
-![Plot of total home and away loss by the teams](images/ax1.png)
-![A Histogram of distribution of teams at the points table](images/ax2.png)
-![A pie chart showing the percentage of points a team holds comparative to the other teams](images/ax3.png)
+![Plot of total home and away wins by the teams](images/ax.png = 250x)
+![Plot of total home and away loss by the teams](images/ax1.png = 250x)
+![A Histogram of distribution of teams at the points table](images/ax2.png = 250x)
+![A pie chart showing the percentage of points a team holds comparative to the other teams](images/ax3.png = 300x300)
 
 ---
 
