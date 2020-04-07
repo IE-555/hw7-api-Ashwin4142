@@ -22,9 +22,9 @@ Authors:  **Ashwin Nair** , **Vishesh Singh Thakur** and **Gaurav Chaudhary**
 
 ## Explanation of the Code
 *Our code is divided into three subparts. It takes the data from the Barclays Premiere League and uses its data to show the various statistics of the league table*
-*The first part of the code is to show the dominance of the top team in the league table, which is Liverpool for the current season. The first graph shows the games won by the respective team in home and away games. The next graph shows the games lost by each team in their home and away matches. The third graph shows the grouping of the teams at various levels of points in the points table*
-*The second part of the code is to see the competition among the teams from the 4th rank to the 10th rank. As the points difference between them is less, the competition becomes more tough*
-*The third part of the code gives us the details of the Relegation Battle, which is the battle among the last few teams with points lower than 30 in the points table to keep away from being in the last three teams at the end of the season*
+- *The first part of the code is to show the dominance of the top team in the league table, which is Liverpool for the current season. The first graph shows the games won by the respective team in home and away games. The next graph shows the games lost by each team in their home and away matches. The third graph shows the grouping of the teams at various levels of points in the points table*
+- *The second part of the code is to see the competition among the teams from the 4th rank to the 10th rank. As the points difference between them is less, the competition becomes more tough*
+- *The third part of the code gives us the details of the Relegation Battle, which is the battle among the last few teams with points lower than 30 in the points table to keep away from being in the last three teams at the end of the season*
 
 The code, `BPL_A7.py`, begins by importing necessary Python packages:
 ```
@@ -91,6 +91,7 @@ for i in range(20):
 The data extracted in the previous steps are used to visualize it
 For the first part of visualization, we show the dominance of the top team using the following graphs:
 ```
+#PLOT 1
 width = 0.35       # the width of the bars
 
 N=20
@@ -121,6 +122,7 @@ autolabel(rects2)
 
 plt.show()
 
+#PLOT 2
 width = 0.35       # the width of the bars
 
 N=20
@@ -153,6 +155,7 @@ autolabel(rects2)
 
 plt.show()
 
+#PLOT 3
 z = []
 for i in range(20):
         z.append(persons['api']['standings'][0][i]['points'])
@@ -183,10 +186,10 @@ plt.tight_layout()
 plt.show()
 ```
 The images are stored as
-![Plot of total home and away wins by the teams](images/ax.png.png)
-![Plot of total home and away loss by the teams](images/ax1.png.png)
-![A Histogram of distribution of teams at the points table](images/ax2.png.png)
-![A pie chart showing the percentage of points a team holds comparative to the other teams](images/ax3.png.png)
+![Plot of total home and away wins by the teams](images/ax.png)
+![Plot of total home and away loss by the teams](images/ax1.png)
+![A Histogram of distribution of teams at the points table](images/ax2.png)
+![A pie chart showing the percentage of points a team holds comparative to the other teams](images/ax3.png)
 
 ---
 
@@ -207,7 +210,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Plot of points comparison of the teams from 4th to 10th spot in the points table](images/ax4.png.png)
+![Plot of points comparison of the teams from 4th to 10th spot in the points table](images/ax4.png)
 
 The third part of visualization shows the competition among the last few teams to stay out of relegation. All the teams with total points less than 35 competete to stay out of relegation. The following code visualizes the plot for the relegation battle:
 ```
@@ -225,7 +228,7 @@ for i, v in enumerate(rel_points):
 ax.set(Title = "Relegation Battle",xlabel = "Points",ylabel = "Teams");
 plt.show()
 ```
-![Plot of relegation battle](images/ax5.png.png)
+![Plot of relegation battle](images/ax5.png)
 
 
 ## How to Run the Code
